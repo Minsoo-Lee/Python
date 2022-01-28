@@ -17,3 +17,9 @@ print(message);
 # 문자열(영어, 한글 상관X)의 길이를 알고자 한다면 len() 함수를 사용한다.
 message = "이민수"
 print("문자열의 길이 :", len(message));
+
+# 대문자 -> 소문자 / 소문자 -> 대문자
+str1 = "AEIOU"
+print(str1.lower())
+str2 = "aeiou"
+print(str2.upper())
