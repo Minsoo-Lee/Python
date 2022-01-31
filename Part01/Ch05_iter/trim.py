@@ -15,4 +15,4 @@ print("after :" + str.strip())
 
 # 문자열 나누기
 str = "I study Python hard"
-print(str.split("y"))
+print(str.split())
